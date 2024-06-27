@@ -3,17 +3,15 @@ This project is a simple drum kit webpage where users can play different drum so
 
 # HTML
 The HTML file (index.html) sets up the basic structure of the webpage.
-* The <head> section includes metadata, the page title, links to the CSS stylesheet, and a Google Font.
-* The <body> section contains the main content: a title and a set of buttons representing the drum kit.
+* The head section includes metadata, the page title, links to the CSS stylesheet, and a Google Font.
+* The body section contains the main content: the main title of the website and a set of buttons.
 * Each button is assigned a class corresponding to a drum sound (e.g., w, a, s, etc.).
-* A footer provides a small message at the bottom of the page.
-* The <script> tag includes the JavaScript file (index.js).
+* The script tag includes the JavaScript file (index.js).
   
 # CSS
 * The CSS file (styles.css) styles the webpage.
 * The body selector centers text and sets the background color.
 * The h1 selector styles the main title with a font, size, color, and text-shadow.
-* The footer selector styles the footer text.
 * Each button class (w, a, s, etc.) sets a background image for the button.
 * The drum class styles the buttons with border, font, color, size, and other properties.
 * Additional classes (game-over, pressed, red) provide specific styles for different states.
